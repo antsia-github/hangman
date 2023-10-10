@@ -23,30 +23,9 @@ word = random.choice(word_list)
 
 guess = ask_for_input()
 
-# print('Enter a single alphabetical character :')
-# while True:
-#   guess = input()   
-#   #if guess.isalpha() and len(guess) == 1:
-#   if check_guess(guess):  
-#     break
-#   else:
-#      "Invalid letter. Please, enter a single alphabetical character."
-
 guess = guess.lower()
 
 if guess in word:
    print(f"Good guess! {guess} is in the word.")
 else:
    print(f"Sorry, {guess} is not in the word. Try again.")
-
-#print(word_list)
-#print(word)
-#print('Now type a single letter :')
-#guess = input()
-
-#if len(guess) ==1:
-#    print("Good guess")
-#else:
-#    print("Oops! That is not a valid input.")
-
-
