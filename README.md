@@ -6,7 +6,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## Table of Contents
 
 ## Description
-What it does, 
+What it does :
+The check_guess function will take the guessed letter as an argument and check if the letter is in the word 
 Aim of the project:
 What have been learned:
 
