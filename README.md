@@ -22,7 +22,7 @@ Create the variables for the game
 Check if the guessed character is in the word
 
 ## Milestone-4
-Create the game class
+Create the Hangman game class
 
 ## Milestone-5
 Putting it all together
